@@ -10,7 +10,7 @@ on:
 jobs:
   build_scan_image:
     name: scan docker image
-    runs-on: tenki-standard-large-4c-8g
+    runs-on: ubuntu-latest
 
     permissions:
       contents: read
